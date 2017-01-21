@@ -2,36 +2,35 @@
 <head>
   <title>Emerald Shaw</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="jscript/form.css">
 </head>
 
 <body>
-
+<div id="everything">
   <div id="wrapperHeader" align="center">
  <div id="header" align="center">
   <img src="images/logo.png" width="787" height="248" alt="logo" />
  </div>
 </div>
 <br>
-  <ul>
+<div id="nav">
+  <ul class="topnav" id="myTopnav">
   <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
   <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
 </ul>
-
-<div id=form>
-  <form action="mailto:eshaw589@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Message:<br>
-<input type="text" name="comment" size="37"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
 </div>
 
+<div id="contact" align="center"></div>
+  <script type="text/JavaScript" src="jscript/contact.js"></script>
 
-</body>
+
 <div class="footer">© 2017 | Emerald Shaw</div>
+
+</div>
+</body>
+
 </html>
